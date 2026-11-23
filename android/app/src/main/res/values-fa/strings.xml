@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FukReg</string>
+    <string name="pair_title">با FukReg روی آیفون اسکن کنید</string>
+    <string name="status_waiting">در انتظار آیفون…</string>
+    <string name="status_connected">وصل · رمزنگاری‌شده</string>
+    <string name="grant">دادن دسترسی‌ها</string>
+    <string name="start">شروع سرویس</string>
+    <string name="svc_running">اتصال FukReg فعال است</string>
+</resources>

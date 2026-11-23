@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FukReg</string>
+    <string name="pair_title">Scan with FukReg on your iPhone</string>
+    <string name="status_waiting">Waiting for iPhone…</string>
+    <string name="status_connected">Connected · encrypted</string>
+    <string name="grant">Grant permissions</string>
+    <string name="start">Start service</string>
+    <string name="svc_running">FukReg link is active</string>
+</resources>

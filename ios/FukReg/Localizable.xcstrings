@@ -1,0 +1,20 @@
+{
+  "sourceLanguage" : "en",
+  "version" : "1.0",
+  "strings" : {
+    "pair_title" : { "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Pair with your Android phone" } }, "fa" : { "stringUnit" : { "state" : "translated", "value" : "جفت کردن با گوشی اندروید" } } } },
+    "pair_hint" : { "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Open FukReg on Android, tap Start, then scan the QR code." } }, "fa" : { "stringUnit" : { "state" : "translated", "value" : "FukReg را روی اندروید باز کنید، «شروع سرویس» را بزنید و کد QR را اسکن کنید." } } } },
+    "pair_bad" : { "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "That isn't a FukReg code." } }, "fa" : { "stringUnit" : { "state" : "translated", "value" : "این کد مال FukReg نیست." } } } },
+    "status_connected" : { "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Connected · encrypted" } }, "fa" : { "stringUnit" : { "state" : "translated", "value" : "وصل · رمزنگاریشده" } } } },
+    "status_searching" : { "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Searching for Android…" } }, "fa" : { "stringUnit" : { "state" : "translated", "value" : "در جستجوی اندروید…" } } } },
+    "messages" : { "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Messages" } }, "fa" : { "stringUnit" : { "state" : "translated", "value" : "پیامکها" } } } },
+    "contacts" : { "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Contacts" } }, "fa" : { "stringUnit" : { "state" : "translated", "value" : "مخاطبین" } } } },
+    "settings" : { "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Settings" } }, "fa" : { "stringUnit" : { "state" : "translated", "value" : "تنظیمات" } } } },
+    "last_code" : { "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Latest code" } }, "fa" : { "stringUnit" : { "state" : "translated", "value" : "آخرین کد" } } } },
+    "code" : { "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Code" } }, "fa" : { "stringUnit" : { "state" : "translated", "value" : "کد" } } } },
+    "copy" : { "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy" } }, "fa" : { "stringUnit" : { "state" : "translated", "value" : "کپی" } } } },
+    "number" : { "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Phone number" } }, "fa" : { "stringUnit" : { "state" : "translated", "value" : "شماره" } } } },
+    "message" : { "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Message" } }, "fa" : { "stringUnit" : { "state" : "translated", "value" : "پیام" } } } },
+    "unpair" : { "localizations" : { "en" : { "stringUnit" : { "state" : "translated", "value" : "Unpair" } }, "fa" : { "stringUnit" : { "state" : "translated", "value" : "لغو جفتشدن" } } } }
+  }
+}
