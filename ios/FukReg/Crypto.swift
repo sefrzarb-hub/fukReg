@@ -1,5 +1,6 @@
 import Foundation
 import CryptoKit
+import Security
 
 /// Mirrors android/.../crypto/Crypto.kt (X25519 + HKDF-SHA256 + AES-256-GCM).
 enum FKCrypto {

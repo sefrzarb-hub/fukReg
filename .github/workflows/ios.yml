@@ -16,8 +16,10 @@ jobs:
       - name: Build (unsigned)
         run: |
           cd ios
-          xcodebuild -project FukReg.xcodeproj -scheme FukReg -configuration Release \
-            -sdk iphoneos -derivedDataPath build CODE_SIGNING_ALLOWED=NO build
+          set -o pipefail
+          xcodebuild -project FukReg.xcodeproj -target FukReg -configuration Release \
+            -sdk iphoneos SYMROOT=build/Build/Products CODE_SIGNING_ALLOWED=NO build 2>&1 | tee xcb.log \
+            || { grep -E "error:" xcb.log | sort -u | head -40 | while read -r l; do echo "::error::$l"; done; exit 1; }
       - name: Package IPA
         run: |
           cd ios/build/Build/Products/Release-iphoneos

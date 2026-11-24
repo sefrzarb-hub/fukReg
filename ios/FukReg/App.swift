@@ -60,8 +60,8 @@ struct MessagesView: View {
     @EnvironmentObject var link: Link
     @State var compose = false
     var threads: [(addr: String, last: [String: Any])] {
-        var seen = Set<String>(); var out: [(String, [String: Any])] = []
-        for m in link.messages { let a = m["addr"] as? String ?? ""; if seen.insert(a).inserted { out.append((a, m)) } }
+        var seen = Set<String>(); var out: [(addr: String, last: [String: Any])] = []
+        for m in link.messages { let a = m["addr"] as? String ?? ""; if seen.insert(a).inserted { out.append((addr: a, last: m)) } }
         return out
     }
     var body: some View {

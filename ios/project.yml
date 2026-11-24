@@ -7,11 +7,14 @@ targets:
   FukReg:
     type: application
     platform: iOS
-    sources: [FukReg]
+    sources:
+      - path: FukReg
+        excludes: ["Info.plist"]
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: app.fukreg.client
-        SWIFT_VERSION: "5.9"
+        SWIFT_VERSION: "5.0"
         CODE_SIGNING_ALLOWED: "NO"
         GENERATE_INFOPLIST_FILE: "NO"
         INFOPLIST_FILE: FukReg/Info.plist
+        TARGETED_DEVICE_FAMILY: "1"
